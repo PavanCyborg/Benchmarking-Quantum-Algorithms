@@ -1,0 +1,229 @@
+Grover's Search Benchmark Program - dm_simulator
+min, max qubits = 2 10
+Executing [2] circuits with num_qubits = 2
+*********************************************
+qc of 2 qubits for finding integer 2
+creation time = 0.7877349853515625 ms
+Algorithmic Depth = 12 and Normalized Depth = 14
+Algorithmic 1Q gates = 16 ,Algorithmic 2Q gates = 2, xi = 0.1111111111111111
+Normalized 1Q gates = 16 ,Normalized 2Q gates = 2, tr_xi = 0.1111111111111111
+Elapsed time = 76.45368576049805 ms and Quantum Time = 0 ms
+Fidelity =  {'fidelity': 1.0, 'hf_fidelity': 1.0}
+*********************************************
+*********************************************
+qc of 2 qubits for finding integer 3
+creation time = 0.8533000946044922 ms
+Algorithmic Depth = 12 and Normalized Depth = 13
+Algorithmic 1Q gates = 14 ,Algorithmic 2Q gates = 2, xi = 0.125
+Normalized 1Q gates = 14 ,Normalized 2Q gates = 2, tr_xi = 0.125
+Elapsed time = 23.452043533325195 ms and Quantum Time = 0 ms
+Fidelity =  {'fidelity': 1.0, 'hf_fidelity': 1.0}
+*********************************************
+Executing [2] circuits with num_qubits = 3
+*********************************************
+qc of 3 qubits for finding integer 2
+creation time = 3.404378890991211 ms
+Algorithmic Depth = 26 and Normalized Depth = 51
+Algorithmic 1Q gates = 43 ,Algorithmic 2Q gates = 4, xi = 0.0851063829787234
+Normalized 1Q gates = 54 ,Normalized 2Q gates = 24, tr_xi = 0.3076923076923077
+Elapsed time = 55.838584899902344 ms and Quantum Time = 0 ms
+Fidelity =  {'fidelity': 0.9997841694927828, 'hf_fidelity': 0.999852459614207}
+*********************************************
+*********************************************
+qc of 3 qubits for finding integer 0
+creation time = 1.0366439819335938 ms
+Algorithmic Depth = 26 and Normalized Depth = 51
+Algorithmic 1Q gates = 47 ,Algorithmic 2Q gates = 4, xi = 0.0784313725490196
+Normalized 1Q gates = 58 ,Normalized 2Q gates = 24, tr_xi = 0.2926829268292683
+Elapsed time = 37.885189056396484 ms and Quantum Time = 0 ms
+Fidelity =  {'fidelity': 0.9997841694927828, 'hf_fidelity': 0.999852459614207}
+*********************************************
+Executing [2] circuits with num_qubits = 4
+*********************************************
+qc of 4 qubits for finding integer 5
+creation time = 1.5437602996826172 ms
+Algorithmic Depth = 38 and Normalized Depth = 168
+Algorithmic 1Q gates = 76 ,Algorithmic 2Q gates = 6, xi = 0.07317073170731707
+Normalized 1Q gates = 128 ,Normalized 2Q gates = 84, tr_xi = 0.39622641509433965
+Elapsed time = 85.64329147338867 ms and Quantum Time = 0 ms
+Fidelity =  {'fidelity': 0.9993765079214424, 'hf_fidelity': 0.9994947850423171}
+*********************************************
+*********************************************
+qc of 4 qubits for finding integer 2
+creation time = 1.7647743225097656 ms
+Algorithmic Depth = 38 and Normalized Depth = 168
+Algorithmic 1Q gates = 82 ,Algorithmic 2Q gates = 6, xi = 0.06818181818181818
+Normalized 1Q gates = 131 ,Normalized 2Q gates = 84, tr_xi = 0.39069767441860465
+Elapsed time = 85.36815643310547 ms and Quantum Time = 0 ms
+Fidelity =  {'fidelity': 0.9993765079214424, 'hf_fidelity': 0.9994947850423171}
+*********************************************
+Executing [2] circuits with num_qubits = 5
+*********************************************
+qc of 5 qubits for finding integer 23
+creation time = 2.250194549560547 ms
+Algorithmic Depth = 42 and Normalized Depth = 607
+Algorithmic 1Q gates = 109 ,Algorithmic 2Q gates = 8, xi = 0.06837606837606838
+Normalized 1Q gates = 462 ,Normalized 2Q gates = 288, tr_xi = 0.384
+Elapsed time = 343.83440017700195 ms and Quantum Time = 0 ms
+Fidelity =  {'fidelity': nan, 'hf_fidelity': nan}
+*********************************************
+*********************************************
+qc of 5 qubits for finding integer 13
+creation time = 2.557516098022461 ms
+/tmp/ipykernel_59677/3684041841.py:34: RuntimeWarning: invalid value encountered in sqrt
+  total += (np.sqrt(val) - np.sqrt(q_normed[key]))**2
+Algorithmic Depth = 50 and Normalized Depth = 603
+Algorithmic 1Q gates = 117 ,Algorithmic 2Q gates = 8, xi = 0.064
+Normalized 1Q gates = 474 ,Normalized 2Q gates = 288, tr_xi = 0.3779527559055118
+Elapsed time = 334.7015380859375 ms and Quantum Time = 0 ms
+Fidelity =  {'fidelity': nan, 'hf_fidelity': nan}
+*********************************************
+Executing [2] circuits with num_qubits = 6
+*********************************************
+qc of 6 qubits for finding integer 10
+creation time = 3.9949417114257812 ms
+Algorithmic Depth = 74 and Normalized Depth = 1881
+Algorithmic 1Q gates = 246 ,Algorithmic 2Q gates = 12, xi = 0.046511627906976744
+Normalized 1Q gates = 1242 ,Normalized 2Q gates = 1104, tr_xi = 0.47058823529411764
+Elapsed time = 1382.7154636383057 ms and Quantum Time = 0 ms
+Fidelity =  {'fidelity': 0.9941433183396424, 'hf_fidelity': 0.9943389392806604}
+*********************************************
+*********************************************
+qc of 6 qubits for finding integer 59
+creation time = 3.934621810913086 ms
+Algorithmic Depth = 62 and Normalized Depth = 1875
+Algorithmic 1Q gates = 210 ,Algorithmic 2Q gates = 12, xi = 0.05405405405405406
+Normalized 1Q gates = 1212 ,Normalized 2Q gates = 1104, tr_xi = 0.47668393782383417
+Elapsed time = 1261.4145278930664 ms and Quantum Time = 0 ms
+Fidelity =  {'fidelity': 0.9941433183396424, 'hf_fidelity': 0.9943389392806604}
+*********************************************
+Executing [2] circuits with num_qubits = 7
+*********************************************
+qc of 7 qubits for finding integer 48
+creation time = 5.9413909912109375 ms
+Algorithmic Depth = 98 and Normalized Depth = 5059
+Algorithmic 1Q gates = 375 ,Algorithmic 2Q gates = 16, xi = 0.04092071611253197
+Normalized 1Q gates = 3230 ,Normalized 2Q gates = 3008, tr_xi = 0.4822058352035909
+Elapsed time = 8764.706373214722 ms and Quantum Time = 0 ms
+Fidelity =  {'fidelity': nan, 'hf_fidelity': nan}
+*********************************************
+*********************************************
+qc of 7 qubits for finding integer 69
+creation time = 6.107091903686523 ms
+Algorithmic Depth = 82 and Normalized Depth = 5067
+Algorithmic 1Q gates = 359 ,Algorithmic 2Q gates = 16, xi = 0.042666666666666665
+Normalized 1Q gates = 3206 ,Normalized 2Q gates = 3008, tr_xi = 0.4840682330222079
+Elapsed time = 8471.904039382935 ms and Quantum Time = 0 ms
+Fidelity =  {'fidelity': nan, 'hf_fidelity': nan}
+*********************************************
+Executing [2] circuits with num_qubits = 8
+*********************************************
+qc of 8 qubits for finding integer 238
+creation time = 8.782148361206055 ms
+Algorithmic Depth = 122 and Normalized Depth = 15267
+Algorithmic 1Q gates = 536 ,Algorithmic 2Q gates = 24, xi = 0.04285714285714286
+Normalized 1Q gates = 9400 ,Normalized 2Q gates = 9120, tr_xi = 0.4924406047516199
+Elapsed time = 126345.67952156067 ms and Quantum Time = 0 ms
+Fidelity =  {'fidelity': 0.39434127637375105, 'hf_fidelity': 0.39728880172271985}
+*********************************************
+*********************************************
+qc of 8 qubits for finding integer 179
+creation time = 11.176347732543945 ms
+Algorithmic Depth = 122 and Normalized Depth = 15279
+Algorithmic 1Q gates = 560 ,Algorithmic 2Q gates = 24, xi = 0.0410958904109589
+Normalized 1Q gates = 9412 ,Normalized 2Q gates = 9120, tr_xi = 0.4921217353766458
+Elapsed time = 125216.54796600342 ms and Quantum Time = 0 ms
+Fidelity =  {'fidelity': 0.3943412763737508, 'hf_fidelity': 0.3972888017227197}
+*********************************************
+Executing [2] circuits with num_qubits = 9
+*********************************************
+qc of 9 qubits for finding integer 57
+creation time = 15.680789947509766 ms
+Algorithmic Depth = 206 and Normalized Depth = 43404
+Algorithmic 1Q gates = 927 ,Algorithmic 2Q gates = 34, xi = 0.03537981269510926
+Normalized 1Q gates = 26487 ,Normalized 2Q gates = 25976, tr_xi = 0.49512990107313726
+Elapsed time = 1443104.3696403503 ms and Quantum Time = 0 ms
+Fidelity =  {'fidelity': nan, 'hf_fidelity': nan}
+*********************************************
+*********************************************
+qc of 9 qubits for finding integer 496
+creation time = 22.804737091064453 ms
+Algorithmic Depth = 172 and Normalized Depth = 43387
+Algorithmic 1Q gates = 893 ,Algorithmic 2Q gates = 34, xi = 0.036677454153182305
+Normalized 1Q gates = 26470 ,Normalized 2Q gates = 25976, tr_xi = 0.49529039392899366
+Elapsed time = 1440986.5403175354 ms and Quantum Time = 0 ms
+Fidelity =  {'fidelity': nan, 'hf_fidelity': nan}
+*********************************************
+Executing [2] circuits with num_qubits = 10
+*********************************************
+qc of 10 qubits for finding integer 768
+creation time = 30.66849708557129 ms
+Algorithmic Depth = 252 and Normalized Depth = 127803
+Algorithmic 1Q gates = 1610 ,Algorithmic 2Q gates = 50, xi = 0.030120481927710843
+Normalized 1Q gates = 77570 ,Normalized 2Q gates = 76600, tr_xi = 0.49685412207303625
+Elapsed time = 25053723.047733307 ms and Quantum Time = 0 ms
+Fidelity =  {'fidelity': nan, 'hf_fidelity': nan}
+*********************************************
+*********************************************
+qc of 10 qubits for finding integer 704
+creation time = 55.89771270751953 ms
+Algorithmic Depth = 252 and Normalized Depth = 127828
+Algorithmic 1Q gates = 1560 ,Algorithmic 2Q gates = 50, xi = 0.031055900621118012
+Normalized 1Q gates = 77495 ,Normalized 2Q gates = 76600, tr_xi = 0.49709594730523377
+Elapsed time = 23969780.17115593 ms and Quantum Time = 0 ms
+Fidelity =  {'fidelity': nan, 'hf_fidelity': nan}
+*********************************************
+Sample Circuit:
+        ┌───┐ ░ ┌─────────┐┌───────────┐ ░ ┌─────────┐┌───────────┐ ░ »
+q321_0: ┤ H ├─░─┤0        ├┤0          ├─░─┤0        ├┤0          ├─░─»
+        ├───┤ ░ │         ││           │ ░ │         ││           │ ░ »
+q321_1: ┤ H ├─░─┤1        ├┤1          ├─░─┤1        ├┤1          ├─░─»
+        ├───┤ ░ │         ││           │ ░ │         ││           │ ░ »
+q321_2: ┤ H ├─░─┤2 oracle ├┤2 diffuser ├─░─┤2 oracle ├┤2 diffuser ├─░─»
+        ├───┤ ░ │         ││           │ ░ │         ││           │ ░ »
+q321_3: ┤ H ├─░─┤3        ├┤3          ├─░─┤3        ├┤3          ├─░─»
+        ├───┤ ░ │         ││           │ ░ │         ││           │ ░ »
+q321_4: ┤ H ├─░─┤4        ├┤4          ├─░─┤4        ├┤4          ├─░─»
+        └───┘ ░ └─────────┘└───────────┘ ░ └─────────┘└───────────┘ ░ »
+  c7: 5/══════════════════════════════════════════════════════════════»
+                                                                      »
+«        ┌─────────┐┌───────────┐ ░ ┌─────────┐┌───────────┐ ░ ┌─┐            
+«q321_0: ┤0        ├┤0          ├─░─┤0        ├┤0          ├─░─┤M├────────────
+«        │         ││           │ ░ │         ││           │ ░ └╥┘┌─┐         
+«q321_1: ┤1        ├┤1          ├─░─┤1        ├┤1          ├─░──╫─┤M├─────────
+«        │         ││           │ ░ │         ││           │ ░  ║ └╥┘┌─┐      
+«q321_2: ┤2 oracle ├┤2 diffuser ├─░─┤2 oracle ├┤2 diffuser ├─░──╫──╫─┤M├──────
+«        │         ││           │ ░ │         ││           │ ░  ║  ║ └╥┘┌─┐   
+«q321_3: ┤3        ├┤3          ├─░─┤3        ├┤3          ├─░──╫──╫──╫─┤M├───
+«        │         ││           │ ░ │         ││           │ ░  ║  ║  ║ └╥┘┌─┐
+«q321_4: ┤4        ├┤4          ├─░─┤4        ├┤4          ├─░──╫──╫──╫──╫─┤M├
+«        └─────────┘└───────────┘ ░ └─────────┘└───────────┘ ░  ║  ║  ║  ║ └╥┘
+«  c7: 5/═══════════════════════════════════════════════════════╩══╩══╩══╩══╩═
+«                                                               0  1  2  3  4 
+
+Oracle =
+                             ░      
+q328_0: ────────────■────────░──────
+        ┌───┐       │        ░ ┌───┐
+q328_1: ┤ X ├───────■────────░─┤ X ├
+        └───┘       │        ░ └───┘
+q328_2: ────────────■────────░──────
+                    │        ░      
+q328_3: ────────────■────────░──────
+        ┌───┐┌───┐┌─┴─┐┌───┐ ░ ┌───┐
+q328_4: ┤ X ├┤ H ├┤ X ├┤ H ├─░─┤ X ├
+        └───┘└───┘└───┘└───┘ ░ └───┘
+
+Diffuser =
+        ┌───┐┌───┐                ░ ┌───┐┌───┐
+q329_0: ┤ H ├┤ X ├───────■────────░─┤ X ├┤ H ├
+        ├───┤├───┤       │        ░ ├───┤├───┤
+q329_1: ┤ H ├┤ X ├───────■────────░─┤ X ├┤ H ├
+        ├───┤├───┤       │        ░ ├───┤├───┤
+q329_2: ┤ H ├┤ X ├───────■────────░─┤ X ├┤ H ├
+        ├───┤├───┤       │        ░ ├───┤├───┤
+q329_3: ┤ H ├┤ X ├───────■────────░─┤ X ├┤ H ├
+        ├───┤├───┤┌───┐┌─┴─┐┌───┐ ░ ├───┤├───┤
+q329_4: ┤ H ├┤ X ├┤ H ├┤ X ├┤ H ├─░─┤ X ├┤ H ├
+        └───┘└───┘└───┘└───┘└───┘ ░ └───┘└───┘
+num_qubits_range = range(2, 11)

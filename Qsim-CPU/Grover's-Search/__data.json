@@ -1,0 +1,140 @@
+{
+    "configuration": {
+        "min_qbits": 2,
+        "max_qbits": 5,
+        "skp_qubits": 1,
+        "num_ckts": [
+            2,
+            2,
+            2,
+            2
+        ],
+        "Type_of_Simulator": "dm_simulator",
+        "benchmark_name": "Grover's Search",
+        "QV_": null,
+        "Processor": "12th Gen Intel(R) Core(TM) i9-12900",
+        "cores": 24
+    },
+    "Number of Qubits": [
+        2,
+        3,
+        4,
+        5
+    ],
+    "avg_creation_times (ms)": [
+        0.801,
+        1.508,
+        1.775,
+        2.32
+    ],
+    "std_creation_times (ms)": [
+        0.028,
+        0.137,
+        0.008,
+        0.023
+    ],
+    "avg_elapsed_times (ms)": [
+        59.099,
+        42.94,
+        87.802,
+        336.925
+    ],
+    "std_elapsed_times (ms)": [
+        12.954,
+        0.672,
+        0.125,
+        2.449
+    ],
+    "avg_quantum_times (ms)": [
+        1.314,
+        3.954,
+        14.408,
+        89.327
+    ],
+    "std_quantum_times (ms)": [
+        0.028,
+        0.12,
+        0.045,
+        1.772
+    ],
+    "avg_circuit_depths": [
+        12.0,
+        26.0,
+        38.0,
+        46.0
+    ],
+    "avg_transpiled_depths": [
+        13.5,
+        51.0,
+        168.0,
+        605.0
+    ],
+    "Average_Rescaled_fidelity": [
+        1.0,
+        1.0,
+        1.0,
+        NaN
+    ],
+    "Average_Hellinger_fidelity": [
+        1.0,
+        1.0,
+        1.0,
+        NaN
+    ],
+    "std_Rescaled_Fidelity": [
+        0.0,
+        0.0,
+        0.0,
+        NaN
+    ],
+    "std_hellinger_fidelity": [
+        0.0,
+        0.0,
+        0.0,
+        NaN
+    ],
+    "gate_counts_plots": true,
+    "avg_1Q_algorithmic_gate_counts": [
+        15.0,
+        45.0,
+        79.0,
+        113.0
+    ],
+    "avg_2Q_algorithmic_gate_counts": [
+        2.0,
+        4.0,
+        6.0,
+        8.0
+    ],
+    "avg_xi (n2q/n1q+n2q)": [
+        0.12,
+        0.08,
+        0.07,
+        0.07
+    ],
+    "avg_1Q_Transpiled_gate_counts": [
+        15.0,
+        56.0,
+        129.5,
+        468.0
+    ],
+    "avg_2Q_Transpiled_gate_counts": [
+        2.0,
+        24.0,
+        84.0,
+        288.0
+    ],
+    "avg_tr_xi (tr_n2q/tr_n1q+tr_n2q)": [
+        0.12,
+        0.3,
+        0.39,
+        0.38
+    ],
+    "max_memory (MB)": [
+        168.2,
+        168.39,
+        168.97,
+        170.31
+    ],
+    "last_updated": "2024-12-12 12:46:28"
+}
