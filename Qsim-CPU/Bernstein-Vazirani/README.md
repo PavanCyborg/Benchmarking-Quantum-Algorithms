@@ -1,4 +1,4 @@
-This program performs Benchmarks of **Deutsch-Jozsa** Algorithm on QSim's Density matrix simulator.
+This program performs Benchmarks of **Bernstein Vazirani** Algorithm on QSim's Density matrix simulator.
 
 
 |Platform|Parameters|Noise Parameters|Benchmarks|Volumetric Positioning|Remarks|
