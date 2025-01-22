@@ -1,0 +1,161 @@
+{
+    "configuration": {
+        "min_qbits": 4,
+        "max_qbits": 12,
+        "skp_qubits": 2,
+        "num_ckts": [
+            3,
+            3,
+            3,
+            3,
+            3
+        ],
+        "Type_of_Simulator": "fake_almaden-1.4.6",
+        "benchmark_name": "VQE Simulation",
+        "QV_": 8,
+        "Processor": "12th Gen Intel(R) Core(TM) i9-12900",
+        "cores": 24
+    },
+    "Number of Qubits": [
+        4,
+        6,
+        8,
+        10,
+        12
+    ],
+    "avg_creation_times (ms)": [
+        199.378,
+        110.067,
+        4563.21,
+        96353.573,
+        249632.806
+    ],
+    "std_creation_times (ms)": [
+        52.966,
+        18.906,
+        1602.042,
+        20133.123,
+        52468.408
+    ],
+    "avg_elapsed_times (ms)": [
+        253.662,
+        146.144,
+        4659.736,
+        98695.543,
+        335980.039
+    ],
+    "std_elapsed_times (ms)": [
+        42.393,
+        8.142,
+        1583.921,
+        19390.209,
+        29578.285
+    ],
+    "avg_quantum_times (ms)": [
+        129.689,
+        145.15,
+        4657.837,
+        98693.645,
+        335977.338
+    ],
+    "std_quantum_times (ms)": [
+        7.587,
+        8.139,
+        1583.834,
+        19390.391,
+        29578.256
+    ],
+    "avg_circuit_depths": [
+        5.0,
+        10.0,
+        26.0,
+        50.0,
+        101.0
+    ],
+    "avg_transpiled_depths": [
+        74.0,
+        340.333,
+        1715.0,
+        4860.333,
+        12434.667
+    ],
+    "Average_Rescaled_fidelity": [
+        0.33,
+        0.03,
+        0.0,
+        0.0,
+        0.0
+    ],
+    "Average_Hellinger_fidelity": [
+        0.45,
+        0.09,
+        0.05,
+        0.03,
+        0.02
+    ],
+    "std_Rescaled_Fidelity": [
+        0.011,
+        0.002,
+        0.001,
+        0.0,
+        0.0
+    ],
+    "std_hellinger_fidelity": [
+        0.014,
+        0.009,
+        0.004,
+        0.005,
+        0.003
+    ],
+    "gate_counts_plots": true,
+    "avg_1Q_algorithmic_gate_counts": [
+        5.0,
+        10.0,
+        28.0,
+        52.0,
+        105.0
+    ],
+    "avg_2Q_algorithmic_gate_counts": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+    ],
+    "avg_xi (n2q/n1q+n2q)": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+    ],
+    "avg_1Q_Transpiled_gate_counts": [
+        43.0,
+        144.0,
+        522.0,
+        1130.0,
+        2479.0
+    ],
+    "avg_2Q_Transpiled_gate_counts": [
+        56.0,
+        284.0,
+        1511.33,
+        4368.0,
+        11581.33
+    ],
+    "avg_tr_xi (tr_n2q/tr_n1q+tr_n2q)": [
+        0.57,
+        0.66,
+        0.74,
+        0.79,
+        0.82
+    ],
+    "max_memory (MB)": [
+        812.03,
+        812.03,
+        812.03,
+        812.03,
+        812.03
+    ],
+    "last_updated": "2025-01-06 11:44:10"
+}

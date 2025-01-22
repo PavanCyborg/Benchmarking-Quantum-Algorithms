@@ -1,0 +1,13 @@
+This program performs Benchmarks of **Monte Carlo** Algorithm on various simulators provided by **Aer** provider and also includes benchmarks performed with **FakeProviders**.
+
+
+|Platform|Parameters|Noise Parameters|Benchmarks|Volumetric Positioning|Remarks|
+|--------|----------|----------------|----------|----------------------|-------|
+|qasm_simulator **method-1**|min_qubits=4, max_qubits=16, skip_qubits=1, max_circuits=2, num_shots=1000, basis: 1-['rx', 'ry', 'rz', 'cx']|***ideal***|![Test-1(M1)](1(M1).jpg)|![Test-1-QV(M1)](1-QV(M1).jpg)||
+|qasm_simulator **method-2**|min_qubits=4, max_qubits=15, skip_qubits=1, max_circuits=2, num_shots=1000,basis: 1-['rx', 'ry', 'rz', 'cx']|***ideal***|![Test-1(M2)](1(M2).jpg)|![Test-1-QV(M2)](1-QV(M2).jpg)||
+|qasm_simulator **method-1**|min_qubits=4, max_qubits=14, skip_qubits=1, max_circuits=2, num_shots=1000, basis: 1-['rx', 'ry', 'rz', 'cx']|depol_one_qb_error = 0.05, depol_two_qb_error = 0.005, reset_to_zero_error = 0.005, reset_to_one_error = 0.005|![Test-2(M1)](2(M1).jpg)|![Test-2-QV(M1)](2-QV(M1).jpg)||
+|qasm_simulator **method-2**|min_qubits=4, max_qubits=14, skip_qubits=1, max_circuits=2, num_shots=1000,basis: 1-['rx', 'ry', 'rz', 'cx']|depol_one_qb_error = 0.05, depol_two_qb_error = 0.005, reset_to_zero_error = 0.005, reset_to_one_error = 0.005|![Test-2(M2)](2(M2).jpg)|![Test-2-QV(M2)](2-QV(M2).jpg)||
+|Statevector_simulator **method-1**|min_qubits=4, max_qubits=14, skip_qubits=1, max_circuits=2, num_shots=1000, basis: 1-['rx', 'ry', 'rz', 'cx']|***ideal***|![Test-3(M1)](3(M1).jpg)|![Test-3-QV(M1)](3-QV(M1).jpg)||
+|statevector_simulator **method-2**|min_qubits=4, max_qubits=14, skip_qubits=1, max_circuits=2, num_shots=1000,basis: 1-['rx', 'ry', 'rz', 'cx']|***ideal***|![Test-3(M2)](3(M2).jpg)|![Test-3-QV(M2)](3-QV(M2).jpg)||
+|Statevector_simulator **method-1**|min_qubits=4, max_qubits=14, skip_qubits=1, max_circuits=2, num_shots=1000, basis: 1-['rx', 'ry', 'rz', 'cx']|depol_one_qb_error = 0.05, depol_two_qb_error = 0.005, reset_to_zero_error = 0.005, reset_to_one_error = 0.005|![Test-4(M1)](4(M1).jpg)|![Test-4-QV(M1)](4-QV(M1).jpg)||
+|statevector_simulator **method-2**|min_qubits=4, max_qubits=14, skip_qubits=1, max_circuits=2, num_shots=1000,basis: 1-['rx', 'ry', 'rz', 'cx']|depol_one_qb_error = 0.05, depol_two_qb_error = 0.005, reset_to_zero_error = 0.005, reset_to_one_error = 0.005|![Test-4(M2)](4(M2).jpg)|![Test-4-QV(M2)](4-QV(M2).jpg)||
