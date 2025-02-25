@@ -1,0 +1,9 @@
+This program performs Benchmarks of **Deutsch-Jozsa** Algorithm on various Local Simulators provided by **CIRQ**.
+
+|Platform|Parameters|Noise Parameters|Benchmarks|Volumetric Positioning|Remarks|
+|--------|----------|----------------|----------|----------------------|-------|
+|simulator |min_qubits=3, max_qubits=15, skip_qubits=1, max_circuits=2, num_shots=1000, basis: "CZTarget"|***ideal***|![Test-1](1.jpg)|![Test-1-QV](1-QV.jpg)|Because of memory limitation execution is terminated only upto **15** Qubits.|
+|simulator |min_qubits=3, max_qubits=15, skip_qubits=1, max_circuits=2, num_shots=1000, basis: "CZTarget"|cirq.depolarize(p=0.01), cirq.bit_flip(p=0.01), cirq.phase_flip(p=0.01), cirq.amplitude_damp(gamma=0.01)|![Test-2](2.jpg)|![Test-2-QV](2-QV.jpg)|Because of memory limitation execution is terminated only upto **15** Qubits.|
+|DensityMatrixSimulator |min_qubits=3, max_qubits=15, skip_qubits=1, max_circuits=2, num_shots=1000, basis: "CZTarget"|***ideal***|![Test-3](3.jpg)|![Test-3-QV](3-QV.jpg)|Because of memory limitation execution is terminated only upto **15** Qubits.|
+|DensityMatrixSimulator|min_qubits=3, max_qubits=15, skip_qubits=1, max_circuits=2, num_shots=1000, basis: "CZTarget"|cirq.depolarize(p=0.01), cirq.bit_flip(p=0.01), cirq.phase_flip(p=0.01), cirq.amplitude_damp(gamma=0.01)|![Test-4](4.jpg)|![Test-4-QV](4-QV.jpg)|Because of memory limitation execution is terminated only upto **15** Qubits.|
+|CliffordSimulator |min_qubits=3, max_qubits=15, skip_qubits=1, max_circuits=2, num_shots=1000, basis: "CZTarget"|***ideal***|![Test-5](5.jpg)|![Test-5-QV](5-QV.jpg)|Because of memory limitation execution is terminated only upto **15** Qubits.|
