@@ -1,0 +1,182 @@
+{
+    "configuration": {
+        "min_qbits": 4,
+        "max_qbits": 15,
+        "skp_qubits": 2,
+        "num_ckts": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+        ],
+        "Type_of_Simulator": "DensityMatrixSimulator",
+        "benchmark_name": "Hidden-Shift",
+        "QV_": null,
+        "Processor": "12th Gen Intel(R) Core(TM) i9-12900",
+        "cores": 24
+    },
+    "Number of Qubits": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        14
+    ],
+    "avg_creation_times (ms)": [
+        0.715,
+        0.95,
+        1.336,
+        2.274,
+        2.779,
+        2.619
+    ],
+    "std_creation_times (ms)": [
+        0.052,
+        0.063,
+        0.024,
+        0.073,
+        0.066,
+        0.223
+    ],
+    "avg_elapsed_times (ms)": [
+        130.679,
+        173.614,
+        330.086,
+        1569.287,
+        48029.03,
+        704672.671
+    ],
+    "std_elapsed_times (ms)": [
+        9.048,
+        5.484,
+        7.627,
+        5.97,
+        2.588,
+        3750.37
+    ],
+    "avg_quantum_times (ms)": [
+        130.678,
+        173.612,
+        330.085,
+        1569.286,
+        48029.028,
+        704672.67
+    ],
+    "std_quantum_times (ms)": [
+        9.048,
+        5.484,
+        7.627,
+        5.97,
+        2.588,
+        3750.37
+    ],
+    "avg_circuit_depths": [
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0
+    ],
+    "avg_transpiled_depths": [
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0
+    ],
+    "Average_Rescaled_fidelity": [
+        0.07,
+        0.02,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+    ],
+    "Average_Hellinger_fidelity": [
+        0.12,
+        0.04,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+    ],
+    "std_Rescaled_Fidelity": [
+        0.003,
+        0.001,
+        0.0,
+        0.001,
+        0.0,
+        0.0
+    ],
+    "std_hellinger_fidelity": [
+        0.003,
+        0.001,
+        0.0,
+        0.001,
+        0.0,
+        0.0
+    ],
+    "gate_counts_plots": true,
+    "avg_1Q_algorithmic_gate_counts": [
+        15.0,
+        22.0,
+        33.0,
+        43.0,
+        45.0,
+        55.0
+    ],
+    "avg_2Q_algorithmic_gate_counts": [
+        4.0,
+        6.0,
+        8.0,
+        10.0,
+        12.0,
+        14.0
+    ],
+    "avg_xi (n2q/n1q+n2q)": [
+        0.21,
+        0.21,
+        0.2,
+        0.19,
+        0.21,
+        0.2
+    ],
+    "avg_1Q_Transpiled_gate_counts": [
+        15.0,
+        22.0,
+        33.0,
+        43.0,
+        45.0,
+        55.0
+    ],
+    "avg_2Q_Transpiled_gate_counts": [
+        4.0,
+        6.0,
+        8.0,
+        10.0,
+        12.0,
+        14.0
+    ],
+    "avg_tr_xi (tr_n2q/tr_n1q+tr_n2q)": [
+        0.21,
+        0.21,
+        0.2,
+        0.19,
+        0.21,
+        0.2
+    ],
+    "max_memory (MB)": [
+        162.45,
+        163.57,
+        170.62,
+        215.61,
+        938.13,
+        12460.59
+    ],
+    "last_updated": "2025-02-17 11:57:11"
+}
